@@ -1,5 +1,5 @@
 body {
-    color: #000;
+    color: #1a1414;
 }
 
 p {
@@ -7,13 +7,15 @@ p {
 }
 
 header {
-    background-color: black;
+    background-color: rgb(15, 1, 1);
     margin: 0;
     padding: 0;
-    color: black;
+    color: rgba(0, 26, 255, 0.671);
 }
 
 main {
     max-width: 900px;
     margin: 20px auto;
+    color: rgb(2, 0, 0);
+    font-size: 0%;
 }
