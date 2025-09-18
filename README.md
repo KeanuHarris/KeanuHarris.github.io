@@ -1,1 +1,2 @@
-# KeanuHarris.github.io
+Author : Keanu Harris
+Purpose : Assignment
