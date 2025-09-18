@@ -1,0 +1,19 @@
+body {
+    color: #000;
+}
+
+p {
+    font-size: 12px;
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+}
