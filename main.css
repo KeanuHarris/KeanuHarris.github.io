@@ -61,3 +61,18 @@ main {
     text-align: center;
     border-top: 2px solid #b30000;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        text-align: center;
+        padding: 10px;
+    }
+}
