@@ -21,7 +21,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #7f0000;
+    background-color: black;
     color: #fff;
     border-radius: 4px;
 
@@ -31,7 +31,15 @@ main {
     max-width: 1000px;
     margin: 24px auto;
     padding: 18px;
-    background-color: #111214;
+    background-color: black;
     border-radius: 8px;
+
+}
+
+#special-footer {
+    background-color: #000000;
+    padding: 12px;
+    color: #cfcfcf;
+    text-align: center;
 
 }
