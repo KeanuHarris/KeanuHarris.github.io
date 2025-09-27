@@ -44,3 +44,20 @@ nav ul li a:hover {
     color: #fff;
     border-radius: 4px;
 }
+
+main {
+    max-width: 1000px;
+    margin: 24px auto;
+    padding: 18px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    border: 2px solid #b30000;
+}
+
+#special-footer {
+    background-color: #0d0d0d;
+    padding: 12px;
+    color: #cfcfcf;
+    text-align: center;
+    border-top: 2px solid #b30000;
+}
