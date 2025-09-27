@@ -12,3 +12,26 @@ header {
     padding: 12px 0;
     text-align: center;
 }
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #7f0000;
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+main {
+    max-width: 1000px;
+    margin: 24px auto;
+    padding: 18px;
+    background-color: #111214;
+    border-radius: 8px;
+
+}
