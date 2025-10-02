@@ -11,34 +11,73 @@
 <header>
     <h1>Contact Information And Extra's</h1>
     <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="characters.html">Characters</a></li>
-            <li><a href="hashira.html">Hashira</a></li>
-            <li><a href="upper-moons.html">Upper Moons</a></li>
-            <li><a href="origins.html">Origins</a></li>
-            <li><a href="corps.html">Corps</a></li>
-            <li><a href="villains.html">Villains</a></li>
-            <li><a href="media.html">Media</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="hashira.html">Hashira</a></li>
+        <li><a href="upper-moons.html">Upper Moons</a></li>
+        <li><a href="origins.html">Origins</a></li>
+        <li><a href="corps.html">Corps</a></li>
+        <li><a href="villains.html">Villains</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 </header> 
 <main>
     <section>
-    <h2>Contact Information</h2>
+        <h2>Contact Information</h2>
         <p>Phone: <a href="tel:5596333473">559-633-3473</a></p>
         <p>Email: <a href="mailto:keanuharris2007@icloud.com">keanuharris2007@icloud.com</a></p>
     </section>
 
     <section>
         <h2>Extra Information</h2>
-        <li><a href="https://demonslayer-anime.com" target="_blank">Official Demon Slayer Website</a></li>
-        <li><a href="https://kimetsu-no-yaiba.fandom.com" target="_blank">Demon Slayer Wiki Website</a></li>
-        <li><a href="https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba" target="_blank">Watch Demon Slayer On Crunchyroll</a></li>
+        <ul>
+            <li><a href="https://demonslayer-anime.com" target="_blank">Official Demon Slayer Website</a></li>
+            <li><a href="https://kimetsu-no-yaiba.fandom.com" target="_blank">Demon Slayer Wiki Website</a></li>
+            <li><a href="https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba" target="_blank">Watch Demon Slayer On Crunchyroll</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact / Feedback Form</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="favorite">Favorite Hashira:</label>
+            <select id="favorite" name="favorite">
+                <option value="giyu">Giyu Tomioka</option>
+                <option value="rengoku">Kyojuro Rengoku</option>
+                <option value="shinobu">Shinobu Kocho</option>
+                <option value="tengen">Tengen Uzui</option>
+                <option value="mitsuri">Mitsuri Kanroji</option>
+                <option value="muichiro">Muichiro Tokito</option>
+                <option value="gyomei">Gyomei Himejima</option>
+                <option value="sanemi">Sanemi Shinazugawa</option>
+                <option value="obanai">Obanai Iguro</option>
+            </select>
+
+            <p>Are you a fan of Demon Slayer?</p>
+            <label><input type="radio" name="fan" value="yes"> Yes</label>
+            <label><input type="radio" name="fan" value="no"> No</label>
+
+            <p>Extra Options:</p>
+            <label><input type="checkbox" name="subscribe"> Subscribe to updates</label>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
     </section>
 </main>
 <footer>
     <p>&copy; 2025 Keanu Productions</p>
-    <p><a href="https://github.com/KeanuHarris" target="_blank" rel="My Github Page">My Github Page</a></p>
+    <p><a href="https://github.com/KeanuHarris" target="_blank" rel="noopener">My Github Page</a></p>
+</footer>
 </body>
 </html>
